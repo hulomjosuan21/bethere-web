@@ -1,0 +1,1 @@
+ALTER TABLE "school_users" ADD COLUMN "permission" jsonb DEFAULT '[]' NOT NULL;
